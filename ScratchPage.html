@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styleIndex.css">
+     <link rel="stylesheet" href="StyleAssistance.css">
+     <link rel="shortcut icon" href="logoBonaking@rt.png" type="image/x-icon">
+     <title> Scratch </title>
+     <style>
+          body{
+               background-color: rgb(209, 214, 202);
+          }
+          .CorpPage{
+               margin-left: 100px;
+          }
+          .PremiereImageScratch{
+               height: 500px;
+               width: 80%;
+          }
+          .ClasseCertainImageScratch{
+               height: 400px;
+               width: 60%;
+               border: 2px red ridge;
+          }
+          .MotClePage{
+               color: dodgerblue;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               font-style: normal;
+               font-weight: 400;
+          }
+          .MotClePage:hover{
+               color: goldenrod;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               font-style: normal;
+               font-weight: 200;
+               
+          }
+          .ListeDesActivitesPossiblesAvecScratch{
+               font-size: 20px;
+               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+               font-weight: 300;
+               color: darkgreen;
+          }
+          .MotCelebreCoder{
+               font-size: 18px;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               font-style: italic;
+               font-weight: 100;
+               color: red;
+          }
+          .ListeDeCeQuonFit{
+               list-style:none;
+               text-align: left;
+               color: rgb(94, 86, 57);
+          }
+          .mot2{
+               color: rgb(45, 19, 62);
+          }
+          .MotDeFinSite{
+               margin-top: 50px;
+               padding: auto;
+               font-size: 18px;
+               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               font-weight: 100;
+               color: black;
+               margin-left: 20px;
+
+          }
+          @media (max-width: 400px) {
+               .ClasseCertainImageScratch{
+                    height: 100px;
+                    width: 40%;
+                    border: 1px red ridge;
+               }
+               .PremiereImageScratch{
+                    height: 200px;
+                    width: 50%;
+               }
+               .ListeDesActivitesPossiblesAvecScratch{
+                    font-size: 10px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-weight: 300;
+                    color: darkgreen;
+               }
+               .MotCelebreCoder{
+                    font-size: 10px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-style: italic;
+                    font-weight: 100;
+                    color: red;
+               }
+               .ImagesLiens{
+                    height: 20px;
+                    width: 20px;
+               }
+               .MotDeFinSite{
+                    margin-top: 20px;
+                    font-size: 10px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-weight: 200;
+                    color: black;
+                    padding: auto;
+                    margin-left: 10px;
+               }
+               .MotDeFinDePage{
+                    font-size: 10px;
+               }
+          }
+          .MotDeFinDePage{
+               font-size: 18px;
+          }
+     </style>
+</head>
+<body>
+     <style>
+          .entetedynamique{
+               width: 100%;
+               position: fixed;
+               left: 0px;
+               top: 0px;
+               z-index: 1000;
+               background-color: rgb(55, 55, 84);
+               opacity: 100%;
+               border-radius: top 10px;
+          }
+          .ImageLogo{
+               height: 100px;
+               width: 100%;
+          }
+          .ImageNomEntreprise{
+               height: 100px;
+               width:100%;
+          }
+          .LogoEntreprise{
+               width: 20%;
+          }
+          .NomEntreprise{
+               width: 80%;
+          }
+          .EntetePageWeb{
+               display: inline-flex;
+               width: 100%;
+          }
+     
+     
+          .ListeElementMenu{
+               margin-right: 15px;
+               margin: 10px;
+          }
+          .ListeElementMenu1{
+               margin-right: 15px;
+               margin-left: 50px;
+               height: 25%;
+          }
+          .img{
+               margin-right:5px;
+               height: 25px;
+               width: 25px;
+          }
+          .LienPages{          
+               color: red;
+               text-decoration: none;
+               font-weight: 100;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          }
+          .elementListe{
+               list-style: none;
+               padding: 5px;
+               margin-left: 5px;
+               margin-right: 5px;
+               display: inline-flex;
+               justify-content: center;
+          }
+          .elementListe:hover{
+               background-color: white;
+               opacity: 60%;
+               list-style: none;
+               padding: 5px;
+               margin-left: 5px;
+               margin-right: 5px;
+               display: inline-flex;
+               justify-content: center;
+          }
+          .elementListe1{
+               list-style: none;
+               padding: 5px;
+               margin-left: 5px;
+               display: inline-flex;
+          }
+          .MenuPagesWeb{
+               width:100%;
+               margin: 0px;
+               background-color: rgb(36, 1, 98);
+               display: inline-flex;
+          }
+          @media (max-width: 400px) {
+               .ImageLogo{
+                    height: 100px;
+                    width:100%;
+               }
+               .ImageNomEntreprise{
+                    height: 100px;
+                    width:100%;
+               }
+               .LogoEntreprise{
+                    width: 20%;
+               }
+               .NomEntreprise{
+                    width: 80%;
+               }
+               .EntetePageWeb{
+                    display: inline-flex;
+                    width: 100%;
+               }
+     
+               .ListeElementMenu{
+                    margin-right: 5px;
+                    margin: 3px;
+               }
+               .ListeElementMenu1{
+                    margin-right: 5px;
+                    margin-left: 10px;
+               }
+               .img{
+                    margin-right:5px;
+                    height: 25px;
+                    width: 25px;
+               }
+               .LienPages{
+                    
+                    color: red;
+                    text-decoration: none;
+                    font-weight: 100;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               }
+               .elementListe{
+                    list-style: none;
+                    padding: 5px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    display: inline-block;
+                    justify-content: center;
+               }
+               .elementListe:hover{
+                    background-color: white;
+                    opacity: 60%;
+                    list-style: none;
+                    padding: 5px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    display: inline-block;
+                    justify-content: center;
+               }
+               .elementListe1{
+                    list-style: none;
+                    padding: 5px;
+                    margin-left: 5px;
+                    display: inline-block;
+               }
+               .MenuPagesWeb{
+                    width:100%;
+                    background-color: #0490afcf;
+                    display: inline-flex;
+               }      
+          }
+     </style>
+     <div class="entetedynamique">
+          <div class="EntetePageWeb">
+               <div class="LogoEntreprise">
+                    <img src="logoBonaking@rt.png" alt="" class="ImageLogo">
+               </div>
+               <div class="NomEntreprise">
+                    <img src="nomentrpriseBona.png" alt="" class="ImageNomEntreprise">
+               </div>
+          </div>
+          <div class="MenuPagesWeb">
+               <ul class="ListeElementMenu">
+                    <li class="elementListe"> <img src="accueil.png" alt="" class="img"> <a href="index.html" class="LienPages">  Accueil </a> </li>      
+                    <li class="elementListe"> <img src="blender.png" alt="" class="img"> <a href="Blender.html" class="LienPages"> Blender  </a> </li>
+                    <li class="elementListe"> <img src="scratch.png" alt="" class="img"> <a href="ScratchPage.html" class="LienPages"> Scratch  </a> </li>
+               </ul>
+               <ul class="ListeElementMenu1">
+                    <li class="elementListe1">  <a href="https://www.youtube.com/@artbonaking659" class="LienPages1"> <img src="télécharger.jpg" alt="" class="img"> </a> </li>
+                    <li class="elementListe1">  <a href="https://www.facebook.com/profile.php?id=100077171624462" class="LienPages1"> <img src="facebook.png" alt="" class="img"> </a> </li>
+                    
+               </ul>
+          </div>
+     </div>
+          
+     <br><br><br><br><br><br><br><br><br>
+  
+     <div class="CorpPage">
+          
+          <p class="MotAccueilPage">
+               <a href="#IdScratchImage" class="MotClePage">Scratch </a> est un logiciel libre de programmation Graphique pour les enfants à partir de 8 ans. Il a été inventé par Mitchel Resnick pour apprendre à utiliser les algorithmes tout en s'amusant. D'où la célèbre formule <span class="MotCelebreCoder">" Apprendre à coder, c'est coder pour apprendre " </span> <br>
+               <a href="#IdScratchImage" class="MotClePage">SCRATCH </a>  est un logiciel de programmation qui te 
+               permet de : 
+          </p>
+          <center>
+               <div class="ImageAccueilScratch" id="IdScratchImage">
+                    <a href="AccueilScratch.png" target="_blank" rel="noopener noreferrer"> <img src="medias/AccueilScratch.png" alt="Une vu sur le logiciel Scratch" class="PremiereImageScratch"> </a>
+               </div>
+          </center>
+          <ul class="ListeDesActivitesPossiblesAvecScratch">
+               <li class="elEmentListe">créer facilement tes propres histoires interactives,</li>
+               <li class="elEmentListe"> créer jeux vidéos</li>
+               <li class="elEmentListe">Créer des animations </li>
+               <li class="elEmentListe">Faire des créations musicales </li>
+               <li class="elEmentListe"> Faire des créations artistiques etc ...</li>
+          </ul>
+          <p class="MotAccueilPage">
+               C'est un logiciel qui permet de coder à partir de <a href="#BlockCodeScratch" class="MotClePage"> Blocs de code  </a> déjà écrit par les créateurs du logiciel.
+               Même une personne qui n'a pas de connaissances dans le domaine de la programmation objet orienté peut s'en sortir.
+               Au fait, il a été conçu pour permettre aux enfants de s'initier à la programmation dès le bas âge. Cela leur permet de mieux accueillir la programmation avec les puissants langages de programmations 
+          </p>
+          <p class="MotAccueilPage">
+               Voici ci-dessous, un exemple de code fait avec le logiciel Scratch qui nous permet de faire un petit essai. <br>
+               Nous allons aussi vous expliquer le code au fur et à mesure qu'on évolue 
+          </p>
+          <center>
+               <div class="ImageCodeScratch">
+                    <img src="ExempleScratch1.png" id="BlockCodeScratch" alt="" class="ClasseCertainImageScratch">
+                    <p class="MotAccueilPage">
+                         Au fait, au niveau de cette image, nous avons agencé des blocs de code écrit
+                         <ul class="ListeDeCeQuonFit">
+                              <li>Le premier bloc est un évènement qui dit "Tant que le drapeau vert est cliqué ", il faudra faire la suite</li>
+                              <li>Le deuxième bloc nous permet de dire Bonjour</li>
+                              <li>Le troisième bloc nous demande le nom de l'utilisateur</li>
+                              <li>Le quatrième bloc nous affiche un message + le nom que vous venez d'entrer</li>
+                         </ul>
+                    </p>
+                    <p class="MotAccueilPage">
+                        Voici maintenant le résultat de l'execution de notre code en desssous ici   
+                    </p>
+                    <img src="ExempleScratch2.png" alt="" class="ClasseCertainImageScratch">
+                    
+                    <img src="ExempleScratch3.png" alt="" class="ClasseCertainImageScratch">
+                    <img src="ExempleScratch4.png" alt="" class="ClasseCertainImageScratch">
+               </div>
+          </center>
+     </div>
+     <div class="MotDeFinSite">
+          Pour plus connaissance dans la programmation avec le logiciel Scratch, nous vous invitons à suivre notre formation vidéo sur la programmation avec le logiciel Scratch sur notre <a href="https://www.youtube.com/@artbonaking659" class="LienYoutube"> Chaine Youtube</a>
+          <p class="KalouPourTelechargement" >
+               Lien de téléchargement des fichiers pour les débuts dans le logicel Scratch <a href="medias/Scratch_presentation2.pdf" style="color: rgb(250, 38, 5); font-size: 14px;"> Début dans le logiciel scratch  </a>
+          </p>
+          <p class="KalouPourTelechargement" >
+               Vous pouvez télécharger le logiciel <a href="https://scratch.mit.edu/download/" style="color: rgb(110, 3, 137); font-size: 14px;"> Scratch  </a>ici
+          </p>
+     </div>
+     <div class="PiedPage">
+          <center>
+              <div class="LienImageVersPageWeb">
+                  <ul class="listeImagPageWeb">
+                      <li class="ElementListeImagepageWeb">
+                          <a href="https://www.facebook.com/profile.php?id=100077171624462" class="LienImagePageWeb">
+                              <img src="facebook.png" alt="" height="50px" width="50px" class="ImagesLiens">
+                          </a>
+                      </li>
+                      <li class="ElementListeImagepageWeb">
+                          <a href="https://www.youtube.com/@artbonaking659" class="LienImagePageWeb">
+                              <img src="télécharger.jpg" alt="" height="50px" width="50px" class="ImagesLiens">
+                          </a>
+                      </li>
+                      
+                  </ul>
+              </div>
+              <p class="MotDeFinDePage">
+                  <span class="mot1">Merci</span><span class="mot2"> d'avoir  visité notre</span> <span class="mot3"> Page web </span>. Sachez que notre priorité est de vous servir
+              </p>
+              <em class="copyRight">
+                  Copyright@ Décembre 2022
+              </em>
+          </center>
+      </div>
+</body>
+</html>
